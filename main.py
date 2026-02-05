@@ -32,6 +32,7 @@ def main():
     # llm = ChatVertexAI(
     llm = ChatOllama(
         model="llama3.1",
+        # model="gemma3:270m",
         temperature=0.3,
         max_retries=1,
     )
